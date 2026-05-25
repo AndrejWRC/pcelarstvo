@@ -40,7 +40,7 @@
       </video>
       <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-[#1c1c1c]"></div>
       <div class="relative text-center max-w-3xl">
-        <p class="text-amber-400 uppercase tracking-[0.3em] text-xs mb-6">Porodično pčelarstvo.</p>
+        <p class="text-amber-400 uppercase tracking-[0.3em] text-xs mb-6">Porodično pčelarstvo</p>
         <h1 style="font-family: 'Playfair Display', serif" class="text-5xl md:text-7xl leading-tight mb-6">Pravi
           med<br />Pravi ukus</h1>
         <p class="text-base md:text-lg text-stone-300 mb-10 leading-relaxed max-w-xl mx-auto font-light">Čist
@@ -242,6 +242,13 @@ const proizvodi = [
     slika: '../slike/cvet.jpg'
   },
   {
+    naziv: 'Lipov med',
+    kategorija: 'Med',
+    opis: 'Nektar sakupljan sa cvetova lipe, poseban ukus limete.',
+    cena: '1200 din / kg',
+    slika: '../slike/lipa.png'
+  },
+  {
     naziv: 'Livadski med',
     kategorija: 'Med',
     opis: 'Taman, intenzivnog ukusa, pun antioksidanasa. Pravi izbor za one koji vole jak, prirodan ukus. Poreklo meda Pešterska visoravan',
@@ -266,7 +273,7 @@ const proizvodi = [
     naziv: 'Rojevi',
     kategorija: 'Rojevi',
     opis: 'Prodaja jakih rojeva na DB ramu',
-    cena: '50 €',
+    cena: '60 €',
     slika: '../slike/roj1.jpg'
   },
 ]
